@@ -271,13 +271,20 @@ main{
         width: auto;
     }
 
+    .apresentacao__conteudo__texto{
+        text-align: center;
+    }
      .apresentacao__conteudo2{
         width: auto;
     }
-
+    .apresentacao__conteudo__titulo{
+        font-size: clamp(1.8rem, 5vw, 2.25rem);
+        text-align: center; 
+    }
+   
     .imagem_portifolio{ 
         width: auto;
-        max-width: 90%;
+        max-width: 100%;
     }
 
 }   
