@@ -174,7 +174,17 @@ body {
     height: auto;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     
+}
+
+.texto__footer{
+    display: flex;
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 .cabecalho{
     position: sticky;   
@@ -287,4 +297,19 @@ main{
         max-width: 100%;
     }
 
+    .rodape{
+        display: flex;
+        flex-direction: column;
+    }
+    .texto__footer{
+        display: flex;
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .contato{
+        visibility: hidden;
+    }
 }   
